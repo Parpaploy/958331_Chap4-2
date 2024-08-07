@@ -21,5 +21,5 @@ wss.on('connection', (ws) => {
 
 const port = 3000;
 app.listen(port, () => {
-    console.log(`Server started on http://parpaploy.github.io/958331_Chap4-2/Express02/index.html:${port}`);
+    console.log(`Server started on http://localhost:${port}`);
 });
